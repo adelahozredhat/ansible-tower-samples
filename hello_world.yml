@@ -4,4 +4,6 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
-
+    - name: sleep
+      ansible.builtin.pause:
+        minutes: 5
